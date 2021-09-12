@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(../images/background.jpg);
+	background-size: cover;
+}
+
+.form {
+	width: 40%;
+	background:  transparent;
+	border: 3px solid white;
+	margin: 60px auto 0;
+	padding-bottom: 0;
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 70px 0 70px 0;
+	text-transform: uppercase;
+	color: white;
+}
+
+.form h3 {
+	margin: 40px auto 10px;
+	font-size: 27px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.form form {
+	padding: 30px;
+	font-size: 20px;
+}
+
+.form form input {
+	margin-bottom: 22px;
+}
+
+label, input[type="text"], input[type="password"] {
+	text-align: left;
+	width: 100%;
+}
+
+label {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+	padding: 7px;
+	font-size: 25px;
+	margin-top: 12px;
+	border-radius: 12px 0 12px 0;
+	border: 2px solid #FFF;
+	background: transparent;
+	padding-left: 20px;
+	color: #FFF;
+}
+
+input[type="text"], input[type="password"]:focus {
+	outline: none;
+}
+
+.form form input[type="submit"] {
+	width: 100%;
+	font-size: 20px;
+	padding: 10px;
+	margin-bottom: 0;
+	border-radius: 30px;
+	border: 0;
+	cursor: pointer;
+	background: purple;
+	color: #FFF;
+
+}
+
+.form .footer a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.form .footer a h4 {
+	font-size: 20px;
+	text-align: center;
+	margin: 10px auto 30px;
+}
